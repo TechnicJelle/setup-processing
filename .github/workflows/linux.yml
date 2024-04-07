@@ -23,7 +23,7 @@ jobs:
           - tag: "processing-0227-2.2.1"
             semver: "227.0.0"
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: node --version
       - uses: ./
         id: setup-processing
